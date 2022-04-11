@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "envPrefixName": {
+            "value": "vm2km"
+        },
+        "miSkuEdition":{
+            "value": "GeneralPurpose"
+        },
+        "miSkuName":{
+            "value": "GP_Gen5"
+        },
+        "miHardwareFamily":{
+            "value": "Gen5"
+        },
+        "miAdminLogin": {
+            "value": "miadmin"
+        },
+        "miStorageSizeInGB":{
+            "value": 32
+        },
+        "miStorageAccountType":{
+            "value": "LRS"
+        },
+        "mivCores":{
+            "value": 4
+        },
+        "miLicenseType":{
+            "value": "BasePrice"
+        },
+        "miCollation":{
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "miTimeZoneId":{
+            "value": "Central Standard Time"
+        },
+        "miProxyOverride":{
+            "value": "Redirect"
+        },
+        "sqlManagedInstanceEnableAADAuthentication": {
+            "value": false
+        },
+        "sqlManagedInstanceAdministratorAADLogin": {
+            "value": ""
+        },
+        "sqlManagedInstanceAdministratorAADSID": {
+            "value": ""
+        },
+        "sqlManagedInstanceAdministratorAADTenantID": {
+            "value": ""
+        }
+    }
+}
